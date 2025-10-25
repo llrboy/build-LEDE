@@ -239,9 +239,6 @@ color cy "添加&替换插件"
 git clone https://github.com/nhhqgirl/luci-app-onliner.git package/lean/luci-app-onliner
 git clone https://github.com/nhhqgirl/luci-app-poweroff.git package/lean/luci-app-poweroff
 
-clone_all https://github.com/linkease/istore-ui
-clone_all https://github.com/linkease/istore luci
-
 # 科学上网插件
 clone_dir https://github.com/vernesong/OpenClash luci-app-openclash
 
