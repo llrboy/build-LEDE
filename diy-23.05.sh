@@ -234,26 +234,14 @@ color cy "添加&替换插件"
 
 # 添加额外插件
 git_clone https://github.com/sbwml/packages_lang_golang golang
-
-clone_all https://github.com/linkease/istore-ui
-clone_all https://github.com/linkease/istore luci
-
 clone_all https://github.com/brvphoenix/luci-app-wrtbwmon
 clone_all https://github.com/brvphoenix/wrtbwmon
 
 # 科学上网插件
 clone_dir https://github.com/vernesong/OpenClash luci-app-openclash
 
-
 # Themes
 git_clone https://github.com/jerrykuku/luci-theme-argon
-
-
-# 晶晨宝盒
-clone_all https://github.com/ophub/luci-app-amlogic
-sed -i "s|firmware_repo.*|firmware_repo 'https://github.com/$GITHUB_REPOSITORY'|g" $destination_dir/luci-app-amlogic/root/etc/config/amlogic
-# sed -i "s|kernel_path.*|kernel_path 'https://github.com/ophub/kernel'|g" $destination_dir/luci-app-amlogic/root/etc/config/amlogic
-sed -i "s|ARMv8|$RELEASE_TAG|g" $destination_dir/luci-app-amlogic/root/etc/config/amlogic
 
 # 加载个人设置
 begin_time=$(date '+%H:%M:%S')
