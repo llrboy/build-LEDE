@@ -236,6 +236,7 @@ color cy "添加&替换插件"
 git_clone https://github.com/sbwml/packages_lang_golang golang
 clone_all https://github.com/brvphoenix/luci-app-wrtbwmon
 clone_all https://github.com/brvphoenix/wrtbwmon
+clone_all https://github.com/sirpdboy/luci-app-poweroffdevice
 
 # 科学上网插件
 clone_dir https://github.com/vernesong/OpenClash luci-app-openclash
