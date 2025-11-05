@@ -25,7 +25,7 @@ on:
       partsize:
         description: '设置rootfs大小'
         required: false
-        default: '960'
+        default: '896'
 
       toolchain:
         description: '使用toolchain缓存'
